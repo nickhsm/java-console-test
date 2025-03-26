@@ -44,6 +44,8 @@ jobs:
       contents: write
     needs: deliver-jar
     steps:
+      - name: Checkout repository code into runner
+        uses: actions/checkout@v2
       - name: Get artifact
         uses: actions/download-artifact@4
         with:
