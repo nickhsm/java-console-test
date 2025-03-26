@@ -1,4 +1,5 @@
 package fact.it.examplebicycle.model;
+import java.math.*;
 
 public class Bicycle {
     private String type;
@@ -52,6 +53,10 @@ public class Bicycle {
             pricePerYear *= 0.95;
         }
         return pricePerYear;
+    }
+
+    public double getWeirdPrice() {
+        return Math.PI * Math.PI * Math.E / rentalPrice;
     }
 
 

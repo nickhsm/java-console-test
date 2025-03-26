@@ -30,6 +30,7 @@ public class ExampleBicycleApplication {
         System.out.println("Student data:");
         System.out.println("Full name: " + student.getFullName());
         System.out.println("Email: " + student.getEmailAddress());
+        System.out.println("Wow:" + myBicycle.getWeirdPrice());
 
 
         System.exit(0);
